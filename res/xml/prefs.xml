@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/editTextPreference1" 
+        android:negativeButtonText="cancel" 
+        android:positiveButtonText="OK" 
+        android:dialogIcon="@drawable/ic_launcher" 
+        android:dialogTitle="WS URL" 
+        android:dialogMessage="Enter Server WS URL" 
+        android:key="ws"
+        android:defaultValue="ws://192.168.0.112:9000/" 
+        android:title="WS URL" 
+        android:enabled="true" 
+        android:selectable="true"/>
+	<EditTextPreference android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:id="@+id/editTextPreference2" 
+	    android:negativeButtonText="cancel" 
+	    android:positiveButtonText="OK" 
+	    android:dialogIcon="@drawable/ic_launcher" 
+	    android:dialogTitle="HTTP URL" 
+	    android:dialogMessage="Enter Server HTTP URL" 
+	    android:key="http"
+	    android:defaultValue="http://192.168.0.112:9000/" 
+	    android:title="Http URL" 
+	    android:enabled="true" 
+	    android:selectable="true"/>
+</PreferenceScreen>
